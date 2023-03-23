@@ -10,6 +10,17 @@
 }
 
 .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.body {
+    margin-bottom: 1rem;
+}
+
+/* .title {
     background: #2e2e2e;
     color: #fff;
     padding: .7rem;
@@ -20,18 +31,18 @@
     padding: 1.5rem .7rem;
     background: #eee;
     border-bottom: 1px solid #000;
-}
+} */
 
 .buttons {
-    border-radius: 0 0 .5rem .5rem;
-    background: #eee;
+    /* border-radius: 0 0 .5rem .5rem; */
+    /* background: #eee; */
     display: flex;
 }
 
-.comments {
+.comments-button {
     display: flex;
     align-items: center;
     cursor: pointer;
     gap: .5rem;
-    padding: .7rem;
+    /* padding: .7rem; */
 }

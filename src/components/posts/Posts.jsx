@@ -24,7 +24,6 @@ const Posts = () => {
       <div className="posts-wrapper">
         {posts.map(post => <Post key={post.id} title={post.title} body={post.body} id={post.id}/>)}
       </div>
-      <Comments/>
     </div>
   )
 }

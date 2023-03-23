@@ -6,4 +6,33 @@
     background-color: #2e2e2e;
     width: 350px;
     flex: 0.7;
+    /* display: flex; */
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* margin-top: 2rem; */
+    border-bottom: 1px solid #fff;
+    padding: 1rem;
+}
+
+.logo span {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    cursor: pointer;
+    gap: 1rem;
+}
+
+.menu-item span {
+    color: #fff;
+    font-size: 1.5rem;
 }

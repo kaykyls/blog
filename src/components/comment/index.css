@@ -1,0 +1,26 @@
+.comment {
+    margin: 0 0 1.5rem;
+    padding: 1.5rem;
+    border-bottom: 1px solid #eaeaea;
+    /* display: flex;
+    flex-direction: column;
+    gap: .5rem; */
+}
+
+.comment-user {
+    margin-bottom: 1rem;
+}
+
+.comment-name {
+    font-weight: bold;
+    margin-bottom: .2rem;
+}
+
+.comment-email {
+    margin-bottom: 1rem;
+}
+
+.comment-email p {
+    font-size: .8rem;
+    color: #868686;
+}
