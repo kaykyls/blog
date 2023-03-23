@@ -1,0 +1,10 @@
+.posts {
+    display: flex;
+    flex-direction: column;
+    padding-left: 350px;
+    position: relative;
+}
+
+.posts-wrapper {
+    margin: 0 24rem;
+}
