@@ -44,7 +44,7 @@
 .post-info {
     flex: 1;
     display: flex;
-    border-right: 1px solid #eee;
+    border-right: 1px solid var(--primary-detail-color);
     padding: 1.5rem;
     flex-direction: column;
 }

@@ -15,7 +15,7 @@
     display: flex;
     flex-direction: column;
     padding: 2rem 0;
-    border-bottom: 1px solid #bababa;
+    border-bottom: 1px solid var(--secondary-detail-color);
 }
 
 .title {
@@ -39,12 +39,12 @@
     cursor: pointer;
     gap: .5rem;
     padding: .6rem;
-    background: #1B2A41;
+    background: var(--secondary-color);
     color: #fff;
     border-radius: 1rem;
 }
 
 .comments-button:hover {
-    background: #0C1821;
+    background: var(--primary-color);
     transition: .2s;
 }

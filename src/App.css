@@ -8,3 +8,13 @@
 body, html, .App, #root {
   height: 100%;
 }
+
+:root {
+  --primary-color: #0C1821;
+  --light-primary-color: #121e32;
+  --secondary-color: #1B2A41;
+  --text-color: #fff;
+  --primary-detail-color: #eaeaea;
+  --secondary-detail-color: #d1d1d1;
+  --tertiary-detail-color: #868686;
+}
