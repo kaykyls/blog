@@ -48,7 +48,7 @@
 
 .post-page-comment-email p {
     font-size: .8rem;
-    color: #868686;
+    color: var(--tertiary-detail-color);
 }
 
 .post-wrapper {
