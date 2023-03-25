@@ -76,6 +76,7 @@
     .post-wrapper {
         flex-direction: column;
         margin: 0 4rem;
+        padding: 0;
     }
 
     .post-page-comments h3{
@@ -93,9 +94,16 @@
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .post-wrapper {
         flex-direction: column;
         margin: 0 2rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .post-wrapper {
+        flex-direction: column;
+        margin: 0 1rem;
     }
 }
