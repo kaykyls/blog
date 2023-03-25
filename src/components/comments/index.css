@@ -68,10 +68,7 @@
     }
 
     .post-info {
-        flex: 0;
-        border-right: 0;
-        border-bottom: 1px solid #565656;
-        flex-direction: column;
+        display: none;
     }
 
     .comments-text {
