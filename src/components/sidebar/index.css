@@ -49,7 +49,7 @@
     color: #fff;
     background: none;
     border: none;
-    display: flex;
+    display: none;
     align-items: center;
 }
 
