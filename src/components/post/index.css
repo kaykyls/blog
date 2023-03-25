@@ -3,6 +3,10 @@
     color: #000;
 }
 
+.title a h2:hover {
+    text-decoration: underline;
+}
+
 .title a {
     text-decoration: none;
 }
@@ -38,4 +42,9 @@
     background: #1B2A41;
     color: #fff;
     border-radius: 1rem;
+}
+
+.comments-button:hover {
+    background: #0C1821;
+    transition: .2s;
 }

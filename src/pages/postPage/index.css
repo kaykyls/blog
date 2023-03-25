@@ -9,14 +9,9 @@
 }
 
 .post-page-post {
-    padding: 4rem 1rem;
-    border-right: 1px solid #bababa;
+    padding: 4rem 2rem;
+    border-right: 2px solid #bababa;
     position: relative;
-    border-top: 1px solid #bababa;
-}
-
-.post-page-comments {
-    border-top: 1px solid #bababa;
 }
 
 .post-page-post a {
@@ -24,12 +19,12 @@
 }
 
 .post-page-comments h3{
-    padding: 1rem;
+    padding: 2rem 2rem 0 2rem;
     font-size: 1.5rem;
 }
 
 .post-page-comment {
-    padding: 1rem;
+    padding: 2rem;
     border-bottom: 1px solid #bababa;
 }
 
@@ -38,6 +33,7 @@
 }
 
 .post-page-comment-user {
+    font-size: 1.2rem;
     margin-bottom: 1rem;
 }
 
@@ -56,12 +52,50 @@
 }
 
 .post-wrapper {
-    margin: 0 24rem;
+    margin: 0 12rem;
     display: flex;
     padding: 2rem;
+    gap: 1rem;
 }
 
 .return-button {
     position: absolute;
     top: 1rem;
+}
+
+@media (max-width: 800px) {
+    .post-container {
+        padding-left: 0;
+        padding-top: 6rem;
+    }
+
+    .post-page-comments, .post-page-post {
+        border-top: none;
+    }
+
+    .post-wrapper {
+        flex-direction: column;
+        margin: 0 4rem;
+    }
+
+    .post-page-comments h3{
+        padding: 1rem 1rem 0 1rem;
+    }
+    
+    .post-page-comment {
+        padding: 1rem;
+    }
+
+    .post-page-post {
+        border-right: 0;
+        border-bottom: 1px solid #393939;
+        padding: 3rem 1rem 1rem 1rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .post-wrapper {
+        flex-direction: column;
+        margin: 0 2rem;
+    }
 }

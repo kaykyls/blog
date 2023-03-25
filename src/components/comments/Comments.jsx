@@ -29,6 +29,7 @@ const Comments = (props) => {
             <div className="info-body"><p>{props.body}</p></div>
           </div>
           <div className="comments">
+            <h3 className='comments-text'>Comments</h3>
             {props.comments.map(comment => <Comment key={comment.id} name={comment.name} email={comment.email} body={comment.body}/>)}
           </div>
           <div onClick={closeComments} className="close"><span className="material-symbols-outlined">close</span></div>

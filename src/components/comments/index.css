@@ -44,13 +44,37 @@
 .post-info {
     flex: 1;
     display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
     border-right: 1px solid #eee;
     padding: 1.5rem;
+    flex-direction: column;
 }
 
 .comments {
     flex: 1;
     overflow-y: auto;
+}
+
+.comments-text {
+    display: none;
+    padding: 1.5rem 1.5rem 0 1.5rem;
+    font-size: 1.3rem;
+}
+
+@media (max-width: 800px) {
+    .comments-wrapper {
+        width: 95%;
+        height: 90%;
+        flex-direction: column;
+    }
+
+    .post-info {
+        flex: 0;
+        border-right: 0;
+        border-bottom: 1px solid #565656;
+        flex-direction: column;
+    }
+
+    .comments-text {
+        display: block;
+    }
 }
