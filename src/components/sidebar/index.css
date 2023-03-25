@@ -12,7 +12,6 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    /* margin-top: 2rem; */
     border-bottom: 1px solid #fff;
     padding: 1.5rem;
 }
@@ -21,8 +20,6 @@
     font-size: 3rem;
     font-weight: bold;
     color: #fff;
-    /* display: flex;
-    align-items: center; */
 }
 
 .menu-item {
@@ -50,6 +47,10 @@
 .hamburger {
     display: none;
     color: #fff;
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
 }
 
 .hamburger span {
@@ -62,6 +63,10 @@
     flex-direction: column;
     width: 100%;
     height: 100%;
+}
+
+.logo a {
+    text-decoration: none;
 }
 
 @media (max-width: 800px) {
@@ -79,5 +84,9 @@
 
     .menu {
         display: none;
+    }
+
+    .logo {
+        padding: 1rem;
     }
 }

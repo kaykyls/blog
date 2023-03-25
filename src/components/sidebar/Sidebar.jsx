@@ -11,10 +11,10 @@ const Sidebar = () => {
   return (
     <div className='sidebar'>
       <div className="logo">
-        <span>Blog</span>
-        <div className="hamburger" onClick={handleOpenMenu}>
+        <Link to={"/"}><span>Blog</span></Link>
+        <button className="hamburger" onClick={handleOpenMenu}>
           <span className="material-symbols-outlined">menu</span>
-        </div>
+        </button>
       </div>
       <div className="menu">
         <Link onClick={handleOpenMenu} to={"/"} className="menu-item"><span className="material-symbols-outlined">Home</span><span>Home</span></Link>
