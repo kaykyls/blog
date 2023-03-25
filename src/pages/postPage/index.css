@@ -1,0 +1,67 @@
+.post-container {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #bababa;
+    height: 100vh;
+    padding-left: 300px;
+    align-items: center;
+    overflow: auto;
+}
+
+.post-page-post {
+    padding: 4rem 1rem;
+    border-right: 1px solid #bababa;
+    position: relative;
+    border-top: 1px solid #bababa;
+}
+
+.post-page-comments {
+    border-top: 1px solid #bababa;
+}
+
+.post-page-post a {
+    color: #000;
+}
+
+.post-page-comments h3{
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.post-page-comment {
+    padding: 1rem;
+    border-bottom: 1px solid #bababa;
+}
+
+.post-page-comment:last-child {
+    border-bottom: none;
+}
+
+.post-page-comment-user {
+    margin-bottom: 1rem;
+}
+
+.post-page-comment-name {
+    font-weight: bold;
+    margin-bottom: .2rem;
+}
+
+.post-page-comment-email {
+    margin-bottom: 1rem;
+}
+
+.post-page-comment-email p {
+    font-size: .8rem;
+    color: #868686;
+}
+
+.post-wrapper {
+    margin: 0 24rem;
+    display: flex;
+    padding: 2rem;
+}
+
+.return-button {
+    position: absolute;
+    top: 1rem;
+}

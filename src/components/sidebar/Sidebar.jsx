@@ -1,16 +1,16 @@
 import React from 'react'
 import "./index.css"
+import { Link } from "react-router-dom";
 
-const LeftSidebar = () => {
+const Sidebar = () => {
   return (
     <div className='sidebar'>
-      <div className="logo"><span>BLOG</span></div>
+      <div className="logo"><span>Blog</span></div>
       <div className="menu">
-        <div className="menu-item"><span className="material-symbols-outlined">Home</span><span>Home</span></div>
+        <Link to={"/"} className="menu-item"><span className="material-symbols-outlined">Home</span><span>Home</span></Link>
       </div>
-          
     </div>
   )
 }
 
-export default LeftSidebar
+export default Sidebar

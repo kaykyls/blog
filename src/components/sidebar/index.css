@@ -3,23 +3,23 @@
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #2e2e2e;
-    width: 350px;
+    background-color: #0C1821;
+    width: 300px;
     flex: 0.7;
-    /* display: flex; */
+    z-index: 1;
 }
 
 .logo {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     width: 100%;
     /* margin-top: 2rem; */
     border-bottom: 1px solid #fff;
-    padding: 1rem;
+    padding: 1.5rem;
 }
 
 .logo span {
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: bold;
     color: #fff;
 }
@@ -27,7 +27,7 @@
 .menu-item {
     display: flex;
     align-items: center;
-    padding: 1rem;
+    padding: 1.5rem;
     cursor: pointer;
     gap: 1rem;
 }
@@ -35,4 +35,9 @@
 .menu-item span {
     color: #fff;
     font-size: 1.5rem;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
 }

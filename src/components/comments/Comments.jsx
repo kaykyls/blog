@@ -1,14 +1,24 @@
 import React from 'react'
 import "./index.css"
 import Comment from '../comment/Comment'
+import { useNavigate, useLocation } from 'react-router-dom'
 
 const Comments = (props) => {
+  const location = useLocation()
+  const navigate = useNavigate()
+
   const closeComments = () => {
     props.setCommentsIsOpen(false)
+    if(location.pathname === "/") return
+    navigate("/")
   }
 
   const handleWrapperClick = (e) => {
     e.stopPropagation();
+  }
+
+  if(location.pathname === "/") {
+    closeComments()
   }
 
   return (

@@ -1,10 +1,24 @@
 .posts {
-    display: flex;
-    flex-direction: column;
-    padding-left: 350px;
-    position: relative;
+    padding-left: 300px;
+    max-height: 100%;
+    overflow: auto;
 }
 
 .posts-wrapper {
     margin: 0 24rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.recent-posts {
+    margin: 0 24rem;
+    border-bottom: 1px solid #bababa;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.recent-posts h2 {
+    font-size: 2rem;
+    font-weight: bold;
 }
